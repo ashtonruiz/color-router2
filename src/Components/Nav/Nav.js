@@ -1,5 +1,6 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
+import { NavLink } from 'react-router-dom';
+import './Nav.css';
 
 export default function Nav() {
   return (
@@ -7,13 +8,13 @@ export default function Nav() {
       <nav>
         <ul>
           <li>
-            <Link to='/rgb/186/209/205'>Opal</Link>
+            <NavLink to='/rgb/186/209/205' className='Colors'>Opal</NavLink>
           </li>
           <li>
-            <Link to='/rgb/242/209/201'>Misty Rose</Link>
+            <NavLink to='/rgb/242/209/201' className='Colors'>Misty Rose</NavLink>
           </li>
           <li>
-            <Link to='/rgb/224/134/211'>Violet Web</Link>
+            <NavLink to='/rgb/224/134/211' className='Colors'>Violet Web</NavLink>
           </li>
         </ul>
       </nav>
