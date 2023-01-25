@@ -1,0 +1,17 @@
+.Colors {
+    text-decoration: none;
+    font-size: 35px;
+}
+
+ul {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+li {
+    display: flex;
+    flex-direction: row;
+}
+
+
+
